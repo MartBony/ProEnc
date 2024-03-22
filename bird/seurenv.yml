@@ -1,0 +1,22 @@
+name: seurat_env
+channels:
+ - conda-forge
+ - bioconda
+ - r  
+ - defaults
+ - bioturing
+dependencies:
+ - r-base
+ - r-essentials
+ - rstudio
+ - r-seurat
+ - r-seuratobject
+ - r-dplyr
+ - r-patchwork
+ - r-harmony
+ - r-reshape
+ - r-ggplot2
+ - r-tictoc
+ - r-presto
+ - bioconductor-glmgampoi
+ - r-matrixstats=1.1.0 # downgraded, required to make glmgampoi work
